@@ -30,10 +30,7 @@ class Client
 	
 	/** @var GuzzleHttp\Client */
 	protected $httpClient;
-
-	/** @var string */
-	protected $apiKey;
-
+ 
 	/** @var string */
 	protected $accessToken;
 
@@ -56,9 +53,8 @@ class Client
 	*
 	* @return Client
 	*/
-	public function __construct($apiKey, $accessToken)
-	{
-		$this->apiKey = $apiKey;
+	public function __construct($accessToken)
+	{ 
 		$this->accessToken = $accessToken;
 		$this->initHttpClient();
 	}
@@ -86,30 +82,7 @@ class Client
 	{
 		return $this->accessToken;
 	}
-
-	/**
-	* setApiKey
-	*
-	* @param string $apiKey
-	*
-	* @return Client
-	*/
-	public function setApiKey($apiKey)
-	{
-		$this->apiKey = $apiKey;
-		return $this;
-	}
-
-	/**
-	* getApiKey
-	*
-	* @return string
-	*/
-	public function getApiKey()
-	{
-		return $this->apiKey;
-	}
-
+ 
 	/**
 	* getHttpClient
 	*
