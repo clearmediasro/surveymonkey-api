@@ -8,16 +8,16 @@
 *
 */
 
-namespace Spliced\SurveyMonkey;
+namespace ClearMedia\SurveyMonkey;
 
 use GuzzleHttp\Client as HttpClient;
 use GuzzleHttp\Psr7\Request;
 use Psr\Http\Message\RequestInterface;
 use GuzzleHttp\Exception\ClientException;
 use Guzzle\Http\Exception\ClientErrorResponseException;
-use Spliced\SurveyMonkey\SurveyMonkeyApiException;
-use Spliced\SurveyMonkey\Response;
-use Spliced\SurveyMonkey\Api;
+use ClearMedia\SurveyMonkey\SurveyMonkeyApiException;
+use ClearMedia\SurveyMonkey\Response;
+use ClearMedia\SurveyMonkey\Api;
 
 /**
 * Client

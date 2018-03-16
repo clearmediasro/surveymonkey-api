@@ -8,7 +8,7 @@
 *
 */
 
-namespace Spliced\SurveyMonkey\Api;
+namespace ClearMedia\SurveyMonkey\Api;
 
 /**
 * Contact API Functions

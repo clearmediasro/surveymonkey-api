@@ -1,6 +1,6 @@
 <?php
 /*
-* This file is part of the surveymonkey-v3-api-php package.
+* This file is part of the surveymonkey-v3 package.
 *
 *
 * For the full copyright and license information, please view the LICENSE
@@ -8,7 +8,7 @@
 *
 */
 
-namespace Spliced\SurveyMonkey;
+namespace ClearMedia\SurveyMonkey;
 
 use GuzzleHttp\Client as HttpClient;
 use GuzzleHttp\Psr7\Request;

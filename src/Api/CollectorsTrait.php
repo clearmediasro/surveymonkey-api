@@ -8,7 +8,7 @@
 *
 */
 
-namespace Spliced\SurveyMonkey\Api;
+namespace ClearMedia\SurveyMonkey\Api;
 
 /**
 * Collector API Functions

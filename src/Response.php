@@ -7,7 +7,7 @@
 *
 */
 
-namespace Spliced\SurveyMonkey;
+namespace ClearMedia\SurveyMonkey;
 
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
