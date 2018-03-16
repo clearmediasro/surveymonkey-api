@@ -17,7 +17,7 @@ Add the following to your composer.json under require:
 
 1) Initiate a client with a long lived token:
 
-    ``$client = new Spliced\SurveyMonkey\Client(MY_API_KEY, MY_API_TOKEN);``
+    ``$client = new Spliced\SurveyMonkey\Client(MY_API_TOKEN);``
 
 2) Make calls:
 
