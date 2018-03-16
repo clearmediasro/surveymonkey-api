@@ -1,0 +1,19 @@
+{
+    "name": "clearmedia/surveymonkey-api",
+    "authors": [
+        {
+            "name": "CLEAR Media",
+            "email": "info@clearmedia.com"
+        }
+    ],
+    "license": "GPL-3.0",
+    "require": {
+        "php": ">=5.5",
+        "guzzlehttp/guzzle": "6.*@stable"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Spliced\\SurveyMonkey\\" : "src/"
+        }
+    }
+}
