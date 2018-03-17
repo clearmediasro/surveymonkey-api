@@ -9,18 +9,18 @@ A simple SurveyMonkey API for version 3.
 # Installation
 Add the following to your composer.json under require:
 
-    "require": {
-        "clearmedia/surveymonkey-api": "dev-master"
-    }
+"require": {
+	"clearmedia/surveymonkey-api": "dev-master"
+}
 
 # Usage
 
 1) Initiate a client with a long lived token:
 
-    $client = new ClearMedia\SurveyMonkey\Client(MY_API_TOKEN);
+	``$client = new ClearMedia\SurveyMonkey\Client(MY_API_TOKEN);``
 
 2) Make calls:
 
-    $client->getSurveys([]);
+	``$client->getSurveys([]);``
 
 3) Check out ``src/Api/*Trait.php`` for exposed methods in the Client class.
